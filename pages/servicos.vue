@@ -29,6 +29,18 @@
 export default {
     name: 'IndexPage',
 
+    head() {
+        return {
+            title: 'Servicos',
+            meta: [
+                { hid: 'description', name: 'description', content: '' },
+            ],
+            bodyAttrs: {
+                class: 'bg-gray-400'
+            }
+        }
+    },
+
     data() {
         return {
             services: []
