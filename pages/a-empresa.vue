@@ -6,3 +6,9 @@
             mollitia fugiat nulla et?</p>
     </div>
 </template>
+<script>
+export default {
+    name: '',
+    middleware: 'auth',
+}
+</script>
