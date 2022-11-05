@@ -26,7 +26,7 @@ export default {
     },
     async asyncData({ $axios }) {
         
-        const products = await $axios.$get('https://jsonplaceholder.typicode.com/posts')
+        const products = await $axios.$get('')
 
         return {
             products
